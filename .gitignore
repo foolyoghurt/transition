@@ -1,5 +1,6 @@
-node_modules
 .DS_Store
-.project
-.settings
-.idea
+node_modules
+npm-debug.log
+*.swp
+.sw*
+.idea/*
