@@ -1,5 +1,5 @@
 /**
- * 利用 3D Transform 实现 slide, flip, fade 等动画过渡特效
+ * 利用 3D Transform 实现 slide, flip, fade 等页面切换时的动画特效
  * @author samuel.fy@alibaba-inc.com
  */
 KISSY.add(function (S, DOM, Event) {

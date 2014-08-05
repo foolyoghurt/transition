@@ -1,6 +1,6 @@
 .mb-anim-view{display:none;position:absolute;top:0;left:0;width:100%}
 .mb-anim-view-active{display:block!important}
-.mb-slide.in,.mb-slide.out{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-duration:350ms;animation-duration:350ms}
+.mb-slide.in,.mb-slide.out{-webkit-animation-timing-function:ease;animation-timing-function:ease;-webkit-animation-duration:300ms;animation-duration:300ms}
 .mb-slide.out{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);-webkit-animation-name:slideouttoleft;animation-name:slideouttoleft}
 .mb-slide.in{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0);-webkit-animation-name:slideinfromright;animation-name:slideinfromright}
 .mb-slide.out.reverse{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);-webkit-animation-name:slideouttoright;animation-name:slideouttoright}
