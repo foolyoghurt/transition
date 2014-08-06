@@ -9,11 +9,13 @@
 
 /* Be sure to use the shorthand, or something weird may happen (I don't know why) */
 .mb-fade.out {
-    opacity: 0;
-    animation: fadeout 600ms ease;
+    animation-name: fadeout;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
 .mb-fade.in {
-    opacity: 1;
-    animation: fadein 600ms ease 400ms;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }

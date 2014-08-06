@@ -1,25 +1,22 @@
 .mb-slide.out
 .mb-slide.in {
 	animation-timing-function: ease;
-	animation-duration: 300ms;
+	animation-duration: 350ms;
+  animation-fill-mode: both;
 }
 .mb-slide.out {
-	transform: translate3d(-100%,0,0);
 	animation-name: slideouttoleft;
 }
 
 .mb-slide.in {
-	transform: translate3d(0,0,0);
 	animation-name: slideinfromright;
 }
 
 .mb-slide.out.reverse {
-	transform: translate3d(100%,0,0);
 	animation-name: slideouttoright;
 }
 
 .mb-slide.in.reverse {
-	transform: translate3d(0,0,0);
 	animation-name: slideinfromleft;
 }
  
